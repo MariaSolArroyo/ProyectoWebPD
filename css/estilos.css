@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 2rem;
+
+}
+
+#imagennav {
+    height: 100px;
+    width: 100px;
+
+}
+
+.navegacion {
+    display: flex;
+
+}
+
+.listasnav {
+    list-style: none;
+    padding: 20px;
+
+}
+
+
+.enlaceslistas {
+    text-decoration: none;
+    color: #232323;
+    font-family: 'Brogi';
+    font-size: 20px;
+
+}
+
+.enlaceslistas:hover {
+    color: #E9E1CB;
+    background-color: #284C9A;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+#imagenportada {
+    height: 400px;
+
+}
+
+#contenedorprincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contenedorimagenportada {
+    margin-right: 60px;
+}
+
+#contenedorinformacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contenedortitulo {
+    margin-bottom: 45px;
+    font-family: 'Brogi';
+    font-size: 50px;
+    color: #E7383C;
+
+
+}
+
+#contenedortitulo h1 {
+    text-shadow: 2px 2px #232323;
+
+}
+
+#seccionparrafoinicial {
+    text-align: center;
+    font-family: 'Acumin Variable Concept';
+    font-size: 20px;
+    text-transform: uppercase;
+
+
+}
+
+#seccionboton {
+    margin-top: 30px;
+
+}
+
+.btncontacto {
+    color: #E9E1CB;
+    text-decoration: none;
+    font-family: 'Brogi';
+    background-color: #E7383C;
+    padding: 15px;
+    border-radius: 15px;
+    text-shadow: 2px 1px #232323;
+    box-shadow: 1px 1px 1px 1px #232323;
+
+}
+
+
+#mainsobre {
+    padding-bottom: 20px;
+}
+
+
+#seccionsobre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+#seccionsobre div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#seccionsobre h2 {
+    font-family: 'Brogi';
+    margin-bottom: 10px;
+    color: #E9E1CB;
+    text-shadow: 1px 1px 1px #232323;
+    font-size: 2rem;
+    background-color: #284C9A;
+    border-radius: 12px;
+    margin-right: 50%;
+
+
+}
+
+#seccionsobre p {
+    color: #232323;
+    font-family: 'Acumin Variable Concept';
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: #E9E1CB;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 2px 1px 11px #232323;
+
+}
+
+#seccionmenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#seccionmenu img {
+    height: 500px;
+    width: 500px;
+
+}
+
+#titulomenu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#titulomenu h1 {
+    color: #E9E1CB;
+    font-family: 'Brogi';
+    text-shadow: 1px 1px 1px #232323;
+    background-color: #E7383C;
+    border-radius: 12px;
+    border-radius: 22px;
+    padding: 10px;
+    box-shadow: 2px 1px 11px #232323;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedorformulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#textocontacto h1 {
+    color: #E9E1CB;
+    font-family: 'Brogi';
+    text-shadow: 1px 1px 1px #232323;
+    background-color: #232323;
+    border-radius: 12px;
+    border-radius: 22px;
+    padding: 13px;
+    box-shadow: 2px 1px 11px #232323;
+    margin-bottom: 26px;
+}
+
+#formulario label {
+    font-family: 'Acumin Variable Concept';
+    color: #232323;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #232323;
+}
+
+#formulario input {
+    border-radius: 10px;
+    background-color: #E7383C;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+#formulario input::placeholder {
+    color: #E9E1CB;
+    text-transform: uppercase;
+    font-family: 'Acumin Variable Concept';
+
+}
+
+#consulta {
+    border-radius: 10px;
+    background-color: #E7383C;
+    padding: 2px;
+    margin-top: 20px
+}
+
+#consulta::placeholder {
+    color: #E9E1CB;
+    text-transform: uppercase;
+    font-family: 'Acumin Variable Concept';
+}
+
+#boton input {
+    border-radius: 10px;
+    background-color: #232323;
+    color: #E9E1CB;
+    padding: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Acumin Variable Concept';
+
+}
+
+
+#imagenformulario img {
+    height: 500px;
+    width: 500px;
+    margin-left: 200px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 25px;
+    background-color: #232323;
+    max-height: 70px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 100px;
+
+}
+
+#copyright p {
+    color: #E9E1CB
+}
+
+#horfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imghor {
+    height: 70px;
+    width: 70px;
+}
+
+#horfooter p {
+    color: #E9E1CB;
+    font-family: 'Brogi';
+    margin-top: 6px;
+
+
+}
+
+#redes {
+    display: flex;
+}
+
+#redes img {
+    height: 25px;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+
+
+}
+
+.listasfooter {
+
+    color: #E9E1CB;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
