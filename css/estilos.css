@@ -23,6 +23,10 @@ header {
 
 }
 
+#main{
+    min-height: 100vh; 
+}
+
 #imagennav {
     height: 100px;
     width: 100px;
@@ -288,7 +292,6 @@ header {
     background-color: #232323;
     max-height: 70px;
     width: 100%;
-    bottom: 0;
     margin-top: 100px;
 
 }
@@ -336,6 +339,26 @@ li {
     color: #E9E1CB;
     font-size: 20px;
     text-decoration: none;
+
+
+}
+
+@media(max-width:1024px){
+    #bodyindex{
+
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contenedorprincipal{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 
 
 }
