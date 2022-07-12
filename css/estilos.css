@@ -383,7 +383,7 @@ li {
     }
 
     #menunavegacion{
-        font-size: 10px;
+        font-size: 8px;
         
     }
     #navegacion{
@@ -401,10 +401,10 @@ li {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: 54px;
+        font-size: 40px;
     }
     #seccionparrafoinicial{
-        font-size: 15px;
+        font-size: 13px;
     }
     
     #footer{
@@ -422,12 +422,12 @@ li {
     }
 
     #seccionsobre h2{
-        font-size: 10px;
+        font-size: 11px;
         padding-left: 10px;
     }
 
     #seccionsobre p{
-        font-size: 5px;
+        font-size: 8px;
     }
     
     #mainsobre{
@@ -465,10 +465,16 @@ li {
 
     #imagenformulario img{
         margin-left: 0px;
-        height: 400px;
-        width: 400px;
+        height: 250px;
+        width: 250px;
+    }
+    
+    .enlaceslistas{
+        font-size: 12px;
     }
 
-
+    #imagenportada{
+        height: 300px;
+    }
 
 }
