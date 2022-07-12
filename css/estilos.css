@@ -382,10 +382,7 @@ li {
         width: 100%;
     }
 
-    #menunavegacion{
-        font-size: 8px;
-        
-    }
+   
     #navegacion{
         flex-direction: column;
         align-items: center;
@@ -463,14 +460,20 @@ li {
         width: auto;
     }
 
+    #imagenformulario{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
     #imagenformulario img{
         margin-left: 0px;
-        height: 250px;
-        width: 250px;
+        height: 150px;
+        width: 100%;
+        margin-top: 40px;
     }
     
-    .enlaceslistas{
-        font-size: 12px;
+    #menunavegacion .enlaceslistas{
+        font-size: 15px;
     }
 
     #imagenportada{
