@@ -729,6 +729,10 @@ li {
     
     
     }
+
+    main{
+        min-height: 100vh;
+    }
     
     @media(max-width:1024px){
         
@@ -825,4 +829,12 @@ li {
             height: 250px;
             width: auto;
         }
+
+        #imagenformulario img{
+            margin-left: 0px;
+            height: 400px;
+            width: 400px;
+        }
+
+        
     }
